@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>krásy přírody</title>
+    
+        
+</head>
+<body>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <video autoplay loop muted playsinline class="background-video">
+                <source src="videowhatsap-vracejicise.mp4" type="video/mp4">
+                
+            </video>
+            <h1>Vítej na mém webu</h1>
+            <p><b>Vydejte se s námi na cestu nejkrásnějšími kouty České republiky. Ať už vás lákají sluncem zalité vinice Pálavy, hluboké lesy a jezera Šumavy, nebo majestátní vrcholy Krkonoš, náš průvodce vám nabídne tipy na výlety, zajímavosti i tajná místa, která stojí za to objevit.</b></p>
+            
+            </div>
+        </div>
+        
+    </section>
+    <!-- Navigace -->
+    <nav class="navbar">
+        <div class="nav-container">
+           <h1 class="logo">Průvodce krásou přírody</h1>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <ul>
+                <li><a href="#nav1">objevte krásu přírody</a></li>
+                <li><a href="#nav3">destinace</a></li>
+                <li><a href="#nav4">divoká fauna</a></li>
+                <li><a href="#nav5">tipy na výlety</a></li>
+                <li><a href="#nav6">mapa</a></li>
+              </ul>
+        </div>
+    </nav>
+    
+    <!-- domov -->
+<div class="vsechno">
+    <section id="nav1">
+    <main class="content">
+        <h2 class="page-title">Objevte krásu přírody</h2>
+        <p class="intro"><b>Vítejte na webu o krásách naší přírody, vaší bráně k dechberoucím přírodním divům z celé ČR. Přidejte se k nám a prozkoumejte nedotčenou krajinu, setkáte se s úžasnou divokou zvěří a vydejte se na nezapomenutelná dobrodružství.</b></p>
+        
+        <div class="card-container" id="domov1">
+            <div class="card">
+                <img src="krkonose.jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Krkonoše</h3>
+                    <p class="card-text">Prozkoumejte tyčící se vrcholy, dechberoucí výhledy a klidné horské louky. Naše horské expedice nabízejí něco pro každého milovníka přírody.</p>
+                    <a href="https://www.krkonose.eu/" class="btn">Prozkoumat Krkonoše</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="sumava (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Šumava</h3>
+                    <p class="card-text">Šumava, zelené srdce Evropy, láká svou nedotčenou přírodou, hlubokými lesy a křišťálovými jezery. Objevte kouzlo tajemných slatí, panoramatické výhledy z vrcholů a pohádkové stezky ideální pro pěší i cyklisty.</p>
+                    <a href="https://www.npsumava.cz/" class="btn">Prozkoumat Šumavu</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="pálava.jpg" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Pálava</h3>
+                    <p class="card-text">Pálava láká na bílé vápencové vrchy, vinice a historické památky. Užijte si úchvatné výhledy, ochutnávku moravských vín a kouzlo sluncem zalité krajiny!</p>
+                    <a href="https://palava.aopk.gov.cz/" class="btn">Prozkoumat Pálavu</a>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+
+
+
+
+
+    
+<!-- destinace -->
+
+
+<section id="nav3">
+        <h2 class="page-title">Destinace</h2>
+        <p class="intro"><b>Objevte kouzelná místa České republiky, která stojí za návštěvu! Od historických památek po malebnou přírodu – inspirujte se našimi tipy na výlety a poznejte krásy naší země. Vydejte se za novými zážitky a objevte destinace, které vás uchvátí.</b></p>
+        
+        
+   
+        <div class="card-container" id="destinace1">
+            <div class="card">
+                <img src="jezero.jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Černé a Čertovo jezero</h3>
+                    <p class="card-text">Dvě ledovcová jezera obklopená hustými lesy patří k nejkrásnějším místům Šumavy. Černé jezero je největší v ČR, zatímco Čertovo opřádají tajemné pověsti. Ideální pro turistiku i relaxaci v přírodě.</p>
+                    <a href="https://shorturl.at/lpWV5" class="btn">Zobrazit na mapě</a>
+                </div>
+            </div>
+           
+            <div class="card">
+                <img src="snezka (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Sněžka</h3>
+                    <p class="card-text">Nejvyšší hora ČR (1603 m) s úžasným panoramatem. Nahoru se dostanete pěšky nebo lanovkou z Pece pod Sněžkou. Na vrcholu stojí kaple sv. Vavřince a Česká poštovna, nejvýše položená budova v ČR.</p>
+                    <a href="https://shorturl.at/VaEiJ" class="btn">Zobrazit na mapě</a>
+                </div>
+            </div>
+           
+            <div class="card">
+                <img src="devicky (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Dívčí hrad (Děvičky)</h3>
+                    <p class="card-text">Zřícenina hradu na vrcholku kopců nabízí nádherný výhled na Pálavu a Novomlýnské nádrže. Místo je snadno dostupné po turistických stezkách a obklopené stepní krajinou.</p>
+                    <a href="https://shorturl.at/ynj9L" class="btn">Zobrazit na mapě</a>
+                </div>
+            </div>
+        </div>
+        
+      
+        <div class="card-container">
+            <div class="card">
+                <img src="prales (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Boubínský prales</h3>
+                    <p class="card-text">Jeden z posledních zachovalých pralesů v ČR s mohutnými staletými stromy. Naučná stezka vás zavede do srdce divočiny, kde vládne nedotčená příroda. Z rozhledny na vrcholu Boubína (1362 m) je nádherný výhled.</p>
+                    <a href="https://shorturl.at/XXNmM" class="btn">Zobrazit na mapě</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Labský důl (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Labský důl</h3>
+                    <p class="card-text">Ledovcové údolí s divokou přírodou a vodopády. Stezka vede podél řeky Labe mezi skalními stěnami a horskými loukami. Jedno z nejkrásnějších míst Krkonoš pro pěší turistiku.</p>
+                    <a href="https://shorturl.at/dAhfa" class="btn">Zobrazit na mapě</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="svaty-kopecek-v-mikulove-1 (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Svatý kopeček u Mikulova</h3>
+                    <p class="card-text">Poutní místo s kaplemi a křížovou cestou. Krátký výstup odmění nádherným výhledem na Mikulov a okolní vinice. Skvělé místo pro klidnou procházku i fotografování.</p>
+                    <a href="https://www.google.com/maps/place/Svat%C3%BD+kope%C4%8Dek/@48.8070131,16.6378943,15z/data=!3m1!4b1!4m6!3m5!1s0x4712cd35516e51bb:0x8667a519a3c180ef!8m2!3d48.807!4d16.648194!16s%2Fg%2F122l35pk?hl=cs-CZ&entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D" class="btn">Zobrazit na mapě</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+<!-- divoka fauna -->
+
+
+
+<section id="nav4">
+        <h2 class="page-title">Divoká fauna</h2>
+        <p class="intro"><b>Objevte fascinující svět divoké fauny, která obývá některé z nejkrásnějších koutů České republiky. Od tajemného rysa ve Šumavě po rychlého zajíce na Pálavě – každý kousek přírody skrývá svůj vlastní příběh. Připravte se na setkání s úžasnými zvířaty, která jsou nedílnou součástí našich krajinných pokladů.</p>
+        
+
+
+
+        <div class="card-container" id="divocina1">
+            <div class="card">
+                <img src="rys (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Rys ostrovid</h3>
+                    <p class="card-text">Rys je jeden z nejvzácnějších a nejtajemnějších predátorů v ČR. Vyskytuje se hlavně v šumavských lesích, kde žije skrytě a loví střední a menší savce. Je známý svou opatrností a schopností se dokonale skrývat.</p>
+             
+                </div>
+            </div>
+           
+           
+           
+            <div class="card">
+                <img src="sycek (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Sýček obecný</h3>
+                    <p class="card-text"> Tento malý dravý pták je typický pro otevřené krajiny a stepní oblasti, jako je Pálava. V noci loví drobné savce, hmyz a malé ptáky. Je známý svým charakteristickým houkáním a je považován za indikátor zdraví ekosystému.</p>
+               
+                </div>
+            </div>
+        </div>
+        
+      
+        <div class="card-container">
+            <div class="card">
+                <img src="jelen (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Jelen evropský </h3>
+                    <p class="card-text">Jelen evropský (Cervus elaphus) je jeden z největších volně žijících savců v Evropě a obývá převážně lesnaté oblasti. Samci mají mohutné paroží, které každý rok na jaře shazují a na podzim jim dorůstá nové. Jsou to býložravci, kteří se živí trávou, listím, kůrou stromů a lesními plody.</p>
+               
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="sova (1).jpg" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Sova pálená</h3>
+                    <p class="card-text">Tento noční dravec je známý svou charakteristickou kulatou tváří a schopností lovit i malé hlodavce v noci. V Krkonoších žije v opuštěných budovách a lesních okrajích, kde vytváří svá hnízda.</p>
+              
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="zajic (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Zajíc polní</h3>
+                    <p class="card-text">Zajíc je běžným zvířetem pálavské krajiny, kde se volně pohybuje po polích a travnatých plochách. Tento rychlý běžec je známý svou obratností, která mu pomáhá unikat před predátory.</p>
+                   
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+<!-- vylety -->
+
+<section id="nav5">
+
+
+        <h2 class="page-title">Tipy na výlety</h2>
+        <p class="intro">Pokud hledáte zážitky, které vám přiblíží historii, kulturu a přírodu v těch nejkrásnějších českých lokalitách, naše doporučení pro placené aktivity a muzea jsou ideální volbou. Od fascinujících expozic o šumavské přírodě po vinařské prohlídky v malebné Pálavě – každý si zde najde to pravé. Objevujte unikátní místa, kde se historie snoubí s moderními zážitky a vychutnejte si atmosféru regionů, které vám nabídnou nezapomenutelné chvíle.</b></p>
+        
+        <div class="card-container" id="vylety1">
+            <div class="card">
+                <img src="lanovka25 (1).jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">lanová dráha na sněžku</h3>
+                    <p class="card-text">Zážitková aktivita, která umožňuje pohodlný výstup na nejvyšší horu ČR, Sněžku. Kromě krásného výhledu na hory si návštěvníci mohou užít i procházku po vrcholu a navštívit Českou poštovnu.</p>
+                   
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="sud (1).jpg" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Muzeum mikulovské vinařské kultury</h3>
+                    <p class="card-text">Muzeum v Mikulově, které představuje historii vína, vinařství a tradičního pěstování révy v Pálavě. Nabízí nejen historické expozice, ale i ochutnávky místních vín.</p>
+                    
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="skanzan.jpg"  class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Šumavský skanzen (Rohanov)</h3>
+                    <p class="card-text">Venkovské muzeum, které představuje tradiční život na Šumavě. Návštěvníci zde mohou vidět historické stavby, staré nástroje a každodenní život v minulosti, a to v krásné přírodní lokalitě.</p>
+                   
+                </div>
+            </div>
+        </div>
+         
+        <h2 class="page-title"></h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="sumava7.jpg"  class="card-img">
+               <div class="stred">
+                <div class="card-content">
+                    <h3 class="card-title">Houbaření</h3>
+                    <p class="card-text">Šumava je houbařský ráj s bohatou úrodou hřibů, lišek či křemenáčů. Nejlepší lokality najdete u Modravy, Kvildy nebo Stožce, kde se houby objevují od jara do podzimu. Houbaření zde není jen o sběru, ale i o relaxaci v krásné přírodě a klidném prostředí. Stačí vzít košík, vydat se do lesa a užít si vůni mechu a čerstvého vzduchu.</p>
+                  
+                </div>   
+                </div>
+            </div>
+       
+            
+            
+        </div>
+    </main>
+</section>
+
+<section id="nav6">
+     <style>
+    #map { height: 600px; }
+  </style>
+</head>
+<body>
+  <h2 class="page-title">Mapa České republiky s body</h2>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Inicializace mapy – střed ČR a přiblížení
+    const map = L.map('map').setView([49.8, 15.5], 7);
+
+    // Podkladová mapa z OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data © OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Body na mapě – přibližné souřadnice
+    const body = [
+      { name: "Šumava", coords: [49.1, 13.5] },
+      { name: "Krkonoše", coords: [50.7, 15.7] },
+      { name: "Pálava", coords: [48.9, 16.7] }
+    ];
+
+    // Přidání markerů
+    body.forEach(bod => {
+      L.marker(bod.coords)
+        .addTo(map)
+        .bindPopup(`<b>${bod.name}</b>`);
+    });
+  </script>
+</section>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>průvodce krásou přírody</h3>
+            <p>spojuje lidi s přírodou už od roku 2025</p>
+            <ul class="social-icons">
+              
+                <li><a href="https://www.instagram.com/vladza_19728/" class="social-link">Instagram</a></li>
+            </ul>
+            <p>&copy; 2025 Vladimír Rybář. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('nav ul');
+
+    if (hamburger && navMenu) {
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when link is clicked
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    }
+});
+      </script>
+</body>
+</html>
